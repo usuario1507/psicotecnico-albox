@@ -1,0 +1,70 @@
+{
+     "paciente": [
+        {
+            "id_paciente": 1,
+            "nombre": "Angel",
+            "apellido": "García López",
+            "correo_electronico": "angelgarcialopez15@gmail.com",
+            "genero": "masculino",
+            "telefono": 644354231,
+            "direccion": "C/Barranco,13",
+            "f_nacimiento": "2002-07-15",
+            "foto": "https://img.freepik.com/foto-gratis/retrato-sonriente-joven-encantador-camiseta-gris-pie-contra-fondo-liso_23-2148213406.jpg?w=740&t=st=1716374976~exp=1716375576~hmac=b137097409035bc4aded05bdca588e53b10332f7c75ada7ecd704439c757a272"
+        },
+        {
+            "id_paciente": 2,
+            "nombre": "Carla",
+            "apellido": "Sáez López",
+            "correo_electronico": "carlasaezlopez14@gmail.com",
+            "genero": "femenino",
+            "telefono": 644698844,
+            "direccion": "C/Almería,9",
+            "f_nacimiento": "1992-08-14",
+            "foto": "https://img.freepik.com/foto-gratis/primer-plano-empresaria-profesional-sonriendo-al-frente-confianza-determinacion-pie-sobre-pared-blanca_176420-42649.jpg?w=740&t=st=1716375041~exp=1716375641~hmac=83d0435fd0c8f2eae11d13d257ba94feb9acf11d8162b255f3440c2aaa46f564"
+        },
+        {
+            "id_paciente": 3,
+            "nombre": "Mario",
+            "apellido": "Martínez Sánchez",
+            "correo_electronico": "mariomartinezsanchez15@gmail.com",
+            "genero": "masculino",
+            "telefono": 644770021,
+            "direccion": "C/Prado,7",
+            "f_nacimiento": "1998-05-15",
+            "foto": "https://img.freepik.com/foto-gratis/hombre-sonriente-guapo-barba_176420-20039.jpg?w=740&t=st=1716375244~exp=1716375844~hmac=3b0f4eeb4079124c7aeaaad97b9447f10a97e1f1fbab0fc33a0684b2e5d1b982"
+        },
+        {
+            "id_paciente": 4,
+            "nombre": "Marta",
+            "apellido": "Rodríguez López",
+            "correo_electronico": "martarodriguezlopez3@gmail.com",
+            "genero": "femenino",
+            "telefono": 644354231,
+            "direccion": "C/Granada,9",
+            "f_nacimiento": "2002-03-03",
+            "foto": "https://img.freepik.com/fotos-premium/foto-retrato-mujer-joven-sonrisa-sobre-fondo-color_908104-545.jpg?w=740"
+        },
+        {
+            "id_paciente": 5,
+            "nombre": "Carlos",
+            "apellido": "García Martínez",
+            "correo_electronico": "carlosgarciamartinez17@gmail.com",
+            "genero": "masculino",
+            "telefono": 644448815,
+            "direccion": "C/Huelva,10",
+            "f_nacimiento": "2006-09-17",
+            "foto": "https://img.freepik.com/foto-gratis/hombre-worldface-american-fondo-blanco_53876-146319.jpg?w=740&t=st=1716375482~exp=1716376082~hmac=c2002d4833d1248117d7aa2e9e950aae55695577ff65ac484fc802ad030f100d"
+        },
+        {
+            "id_paciente": 6,
+            "nombre": "Fernando",
+            "apellido": "Sánchez López",
+            "correo_electronico": "fernandosanchelopez20@gmail.com",
+            "genero": "masculino",
+            "telefono": 644775399,
+            "direccion": "C/Jaén,10",
+            "f_nacimiento": "2008-10-14",
+            "foto": "https://img.freepik.com/foto-gratis/hombre-joven-guapo-nuevo-corte-pelo-estilo_176420-19637.jpg?w=740&t=st=1716375555~exp=1716376155~hmac=1abe8f43dc2b85ffd8c8bc1ec43db2d0978fff89fe2c999c355797d6363bd156"
+        }
+     ]
+   }

@@ -1,0 +1,41 @@
+{
+    "list": {
+      "cita": [
+         {
+            "id_cita": 1,
+            "fecha_hora": "2024-04-01T10:00:00",
+            "id_paciente": 1,
+            "id_medico": 4,
+            "id_administrativo": 9
+         },
+         {
+            "id_cita": 2,
+            "fecha_hora": "2024-04-04T13:00:00",
+            "id_paciente": 2,
+            "id_medico": 5,
+            "id_administrativo": 7
+         },
+         {
+            "id_cita": 3,
+            "fecha_hora": "2024-04-08T14:00:00",
+            "id_paciente": 3,
+            "id_medico": 7,
+            "id_administrativo": 10
+         },
+         {
+            "id_cita": 4,
+            "fecha_hora": "2024-04-11T09:00:00",
+            "id_paciente": 3,
+            "id_medico": 5,
+            "id_administrativo": 9
+         },
+         {
+            "id_cita": 5,
+            "fecha_hora": "2024-04-20T20:00:00",
+            "id_paciente": 5,
+            "id_medico": 6,
+            "id_administrativo": 11
+         }
+      ]
+    }
+ }

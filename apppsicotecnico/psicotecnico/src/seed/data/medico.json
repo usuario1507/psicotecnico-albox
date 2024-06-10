@@ -1,0 +1,64 @@
+{
+      "medico": [
+         {
+             "id_medico": 1,
+             "nombre": "Laura",
+             "apellido": "Martínez Sánchez",
+             "correo_electronico": "lauramartinezsanchez16@gmail.com",
+             "genero": "femenino",
+             "telefono": 644559901,
+             "especialidad":"cardiología",
+             "foto": "https://st.depositphotos.com/1385248/3882/i/450/depositphotos_38820833-stock-photo-portrait-of-young-woman-face.jpg"
+         },
+         {
+            "id_medico": 2,
+            "nombre": "Óscar",
+            "apellido": "García López",
+            "correo_electronico": "oscarmartinezlopez20@gmail.com",
+            "genero": "masculino",
+            "telefono": 644883351,
+            "especialidad":"neurología",
+            "foto": "https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         },
+         {
+            "id_medico": 3,
+            "nombre": "María",
+            "apellido": "García Rodríguez",
+            "correo_electronico": "mariagarciarodriguez25@gmail.com",
+            "genero": "femenino",
+            "telefono": 644886144,
+            "especialidad":"dermatología",
+            "foto": "https://st.depositphotos.com/2009819/2401/i/450/depositphotos_24012777-stock-photo-beautiful-girl-portrait.jpg"
+         },
+         {
+            "id_medico": 4,
+            "nombre": "Diego",
+            "apellido": "García Sánchez",
+            "correo_electronico": "diegogarciasanchez18@gmail.com",
+            "genero": "masculino",
+            "telefono": 644881134,
+            "especialidad":"cardiología",
+            "foto": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         },
+         {
+            "id_medico": 5,
+            "nombre": "Lola",
+            "apellido": "García Ramos",
+            "correo_electronico": "lolagarciaramos12@gmail.com",
+            "genero": "femenino",
+            "telefono": 644992455,
+            "especialidad":"neurología",
+            "foto": "https://static.vecteezy.com/system/resources/previews/033/883/083/non_2x/a-beautiful-woman-in-white-dress-posing-for-the-camera-ai-generated-free-photo.jpg"
+         },
+         {
+            "id_medico": 6,
+            "nombre": "Ángel Jesús",
+            "apellido": "García Martínez",
+            "correo_electronico": "angeljesusgarciamartinez@gmail.com",
+            "genero": "masculino",
+            "telefono": 665660937,
+            "especialidad":"psicología",
+            "foto": "https://images.pexels.com/photos/1844547/pexels-photo-1844547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         }
+      ]
+    }

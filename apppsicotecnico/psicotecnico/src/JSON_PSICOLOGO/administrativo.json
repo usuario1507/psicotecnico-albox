@@ -1,0 +1,46 @@
+{
+    "list": {
+      "administrativo": [
+         {
+             "id_administrativo": 1,
+             "nombre": "Ángel",
+             "apellido": "González Sánchez",
+             "correo_electronico": "angelgonzalezsanchez23@gmail.com",
+             "genero": "masculino",
+             "telefono": 644991133
+         },
+         {
+             "id_administrativo": 2,
+             "nombre": "María",
+             "apellido": "García Pérez",
+             "correo_electronico": "mariagarciaperez21@gmail.com",
+             "genero": "femenino",
+             "telefono": 644882261
+         },
+         {
+            "id_administrativo": 3,
+            "nombre": "David",
+            "apellido": "Moreno Sánchez",
+            "correo_electronico": "davidmorenosanchez10@gmail.com",
+            "genero": "masculino",
+            "telefono": 644254411
+         },
+         {
+            "id_administrativo": 4,
+            "nombre": "Carla",
+            "apellido": "García Ramos",
+            "correo_electronico": "carlagarciaramos2@gmail.com",
+            "genero": "femenino",
+            "telefono": 644661455
+         },
+         {
+            "id_administrativo": 5,
+            "nombre": "Paula",
+            "apellido": "García López",
+            "correo_electronico": "paulagarcialopez15@gmail.com",
+            "genero": "femenino",
+            "telefono": 644002711
+         }
+      ]
+    }
+ }

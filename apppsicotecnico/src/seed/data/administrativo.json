@@ -1,0 +1,58 @@
+{
+      "administrativo": [
+         {
+             "id_administrativo": 1,
+             "nombre": "Ángel",
+             "apellido": "González Sánchez",
+             "correo_electronico": "angelgonzalezsanchez23@gmail.com",
+             "genero": "masculino",
+             "telefono": 644991133,
+             "foto": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600"
+         },
+         {
+             "id_administrativo": 2,
+             "nombre": "María",
+             "apellido": "García Pérez",
+             "correo_electronico": "mariagarciaperez21@gmail.com",
+             "genero": "femenino",
+             "telefono": 644882261,
+             "foto": "https://images.pexels.com/photos/2104252/pexels-photo-2104252.jpeg?auto=compress&cs=tinysrgb&w=600"
+         },
+         {
+            "id_administrativo": 3,
+            "nombre": "David",
+            "apellido": "Moreno Sánchez",
+            "correo_electronico": "davidmorenosanchez10@gmail.com",
+            "genero": "masculino",
+            "telefono": 644254411,
+            "foto": "https://img.freepik.com/foto-gratis/retrato-hombre-blanco-aislado_53876-40306.jpg?size=626&ext=jpg&ga=GA1.1.1788068356.1716249600&semt=sph"
+         },
+         {
+            "id_administrativo": 4,
+            "nombre": "Carla",
+            "apellido": "García Ramos",
+            "correo_electronico": "carlagarciaramos2@gmail.com",
+            "genero": "femenino",
+            "telefono": 644661455,
+            "foto": "https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/rostro-mujer-adulta.jpg?w=500&ssl=1"
+         },
+         {
+            "id_administrativo": 5,
+            "nombre": "Paula",
+            "apellido": "García López",
+            "correo_electronico": "paulagarcialopez15@gmail.com",
+            "genero": "femenino",
+            "telefono": 644002711,
+            "foto": "https://i.blogs.es/f6f619/window_y_100k_models_-_google_drive/650_1200.webp"
+         },
+         {
+            "id_administrativo": 6,
+            "nombre": "Lorena",
+            "apellido": "Martínez Navarro",
+            "correo_electronico": "lorenamartineznavarro23@gmail.com",
+            "genero": "femenino",
+            "telefono": 644995537,
+            "foto": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         }
+      ]
+}

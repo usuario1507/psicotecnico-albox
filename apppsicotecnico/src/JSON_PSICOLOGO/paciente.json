@@ -1,0 +1,56 @@
+{
+   "list": {
+     "paciente": [
+        {
+            "id_paciente": 1,
+            "nombre": "Angel",
+            "apellido": "García López",
+            "correo_electronico": "angelgarcialopez15@gmail.com",
+            "genero": "masculino",
+            "telefono": 644354231,
+            "direccion": "C/Barranco,13",
+            "f_nacimiento": "2002-07-15"
+        },
+        {
+            "id_paciente": 2,
+            "nombre": "Carla",
+            "apellido": "Sáez López",
+            "correo_electronico": "carlasaezlopez14@gmail.com",
+            "genero": "femenino",
+            "telefono": 644698844,
+            "direccion": "C/Almería,9",
+            "f_nacimiento": "1992-08-14"
+        },
+        {
+            "id_paciente": 3,
+            "nombre": "Mario",
+            "apellido": "Martínez Sánchez",
+            "correo_electronico": "mariomartinezsanchez15@gmail.com",
+            "genero": "masculino",
+            "telefono": 644770021,
+            "direccion": "C/Prado,7",
+            "f_nacimiento": "1998-05-15"
+        },
+        {
+            "id_paciente": 4,
+            "nombre": "Marta",
+            "apellido": "Rodríguez López",
+            "correo_electronico": "martarodriguezlopez3@gmail.com",
+            "genero": "femenino",
+            "telefono": 644354231,
+            "direccion": "C/Granada,9",
+            "f_nacimiento": "2002-03-03"
+        },
+        {
+            "id_paciente": 5,
+            "nombre": "Carlos",
+            "apellido": "García Martínez",
+            "correo_electronico": "carlosgarciamartinez17@gmail.com",
+            "genero": "masculino",
+            "telefono": 644448815,
+            "direccion": "C/Huelva,10",
+            "f_nacimiento": "2006-09-17"
+        }
+     ]
+   }
+}

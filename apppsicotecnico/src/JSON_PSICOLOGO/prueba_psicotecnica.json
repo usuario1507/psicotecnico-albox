@@ -1,0 +1,41 @@
+{
+    "list": {
+      "prueba_psicotecnica": [
+         {
+            "id_prueba": 1,
+            "nombre_prueba": "Licencia de armas",
+            "descripcion": "Quiere renovarse la liecencia para seguir cazando",
+            "costo": 60,
+            "id_cita": 1
+         },
+         {
+            "id_prueba": 2,
+            "nombre_prueba": "Examen de conducir el coche",
+            "descripcion": "Consiste en examinarse dos examenes de sacarse el carné del coche",
+            "costo": 150,
+            "id_cita": 2
+         },
+         {
+            "id_prueba": 3,
+            "nombre_prueba": "Examen de conducir la moto",
+            "descripcion": "Tienes que haber superado el carné de coche antes",
+            "costo": 100,
+            "id_cita": 3
+         },
+         {
+            "id_prueba": 4,
+            "nombre_prueba": "Fractura de un femúr",
+            "descripcion": "Se ha fracturado el femúr del lado derecho",
+            "costo": 80,
+            "id_cita": 4
+         },
+         {
+            "id_prueba": 5,
+            "nombre_prueba": "Fractura de un brazo",
+            "descripcion": "Se ha fracturado el brazo drecho",
+            "costo": 70,
+            "id_cita": 5
+         }
+      ]
+    }
+ }

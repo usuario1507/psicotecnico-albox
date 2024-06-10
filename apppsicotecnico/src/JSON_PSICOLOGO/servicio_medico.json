@@ -1,0 +1,41 @@
+{
+    "list": {
+      "servicio_medico": [
+         {
+            "id_servicio": 1,
+            "nombre_servicio": "Vacunacion del coronavirus",
+            "descripcion": "Consiste en que protege del coronavirus",
+            "costo": 90,
+            "id_cita": 1
+         },
+         {
+            "id_servicio": 2,
+            "nombre_servicio": "Psicoterapia",
+            "descripcion": "Consiste en hacer estiramientos para evitar lesiones",
+            "costo": 70,
+            "id_cita": 2
+         },
+         {
+            "id_servicio": 3,
+            "nombre_servicio": "Pediatría",
+            "descripcion": "Consiste en reparar el problema del lenguaje y de compresión",
+            "costo": 150,
+            "id_cita": 3
+         },
+         {
+            "id_servicio": 4,
+            "nombre_servicio": "Examen del laboratorio",
+            "descripcion": "Consiste en fabricar un jarabe para niños",
+            "costo": 150,
+            "id_cita": 4
+         },
+         {
+            "id_servicio": 5,
+            "nombre_servicio": "Servicio de rehabilitación",
+            "descripcion": "Consiste en reanimar a los pacientes",
+            "costo": 110,
+            "id_cita": 5
+         }
+      ]
+    }
+ }

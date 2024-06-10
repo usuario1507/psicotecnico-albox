@@ -1,0 +1,51 @@
+{
+    "list": {
+      "medico": [
+         {
+             "id_medico": 1,
+             "nombre": "Laura",
+             "apellido": "Martínez Sánchez",
+             "correo_electronico": "lauramartinezsanchez16@gmail.com",
+             "genero": "femenino",
+             "telefono": 644559901,
+             "especialidad_medica":"cardiólogía"
+         },
+         {
+            "id_medico": 2,
+            "nombre": "Óscar",
+            "apellido": "García López",
+            "correo_electronico": "oscarmartinezlopez20@gmail.com",
+            "genero": "masculino",
+            "telefono": 644883351,
+            "especialidad_medica":"neurología"
+         },
+         {
+            "id_medico": 3,
+            "nombre": "María",
+            "apellido": "García Rodríguez",
+            "correo_electronico": "mariagarciarodriguez25@gmail.com",
+            "genero": "femenino",
+            "telefono": 644886144,
+            "especialidad_medica":"dermatología"
+         },
+         {
+            "id_medico": 4,
+            "nombre": "Diego",
+            "apellido": "García Sánchez",
+            "correo_electronico": "diegogarciasanchez18@gmail.com",
+            "genero": "masculino",
+            "telefono": 644881134,
+            "especialidad_medica":"cardiólogo"
+         },
+         {
+            "id_medico": 5,
+            "nombre": "Lola",
+            "apellido": "García Ramos",
+            "correo_electronico": "lolagarciaramos12@gmail.com",
+            "genero": "femenino",
+            "telefono": 644992455,
+            "especialidad_medica":"neurología"
+         }
+      ]
+    }
+ }
