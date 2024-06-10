@@ -1,5 +1,5 @@
 
-import { IColumn, IMedicos } from "@/app/interfaces/IMedicos";
+import { IColumn, IMedico } from "@/app/interfaces/IMedicos";
 import { FC } from "react";
 import React from "react";
 import {Button} from "@nextui-org/react";
@@ -8,7 +8,7 @@ import Link from "next/link";
 
 
 interface Props {
-    medicos: IMedicos[],
+    medicos: IMedico[],
     columnas: String[]
 }
 

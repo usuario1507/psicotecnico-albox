@@ -1,5 +1,5 @@
 
-export interface IMedicos {
+export interface IMedico {
     id_medico: number;
     nombre: string;
     apellido: string;
@@ -9,12 +9,12 @@ export interface IMedicos {
     especialidad: string;
     foto: string;
     key?: number;
-    medico: IMedicos;
+    // medico: IMedicos;
 };
 
 export interface IRespMedicos {
   status: number;
-  data: IMedicos;
+  data: IMedico;
   msg: string;
 };
 
