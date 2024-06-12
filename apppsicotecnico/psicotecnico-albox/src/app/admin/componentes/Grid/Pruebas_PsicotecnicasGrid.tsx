@@ -1,11 +1,11 @@
-import { IPruebas_Psicotecnicas, IColumn } from "@/app/interfaces/IPruebas_Psicotecnicas";
+import { IPrueba_Psicotecnica, IColumn } from "@/app/interfaces/IPruebas_Psicotecnicas";
 import { FC } from "react";
 import { Button } from "@nextui-org/button";
 import React from "react";
 import Link from "next/link";
 
 interface Props {
-    pruebas_psicotecnicas: IPruebas_Psicotecnicas[];
+    pruebas_psicotecnicas: IPrueba_Psicotecnica[];
     columnas: String;
 };
 
