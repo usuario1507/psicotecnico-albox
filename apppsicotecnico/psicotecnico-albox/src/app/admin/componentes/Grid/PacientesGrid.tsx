@@ -1,4 +1,4 @@
-import { IPacientes } from "@/app/interfaces/IPacientes";
+import { IPaciente } from "@/app/interfaces/IPacientes";
 import { Button } from "@nextui-org/button";
 import { FC } from "react";
 import React from "react";
@@ -7,7 +7,7 @@ import Link from "next/link";
 
 
 interface Props {
-    pacientes: IPacientes[];
+    pacientes: IPaciente[];
     columnas: String;
 };
 

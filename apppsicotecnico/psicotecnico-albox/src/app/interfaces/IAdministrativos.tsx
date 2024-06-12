@@ -1,5 +1,5 @@
 
-export interface IAdministrativos {
+export interface IAdministrativo {
     id_administrativo: number;
     nombre: string;
     apellido: string;
@@ -8,12 +8,12 @@ export interface IAdministrativos {
     telefono: number;
     foto: string;
     key?: number;
-    administrativo: IAdministrativos;
+    // administrativo: IAdministrativos;
 };
 
 export interface IRespAdministrativos {
   status: number;
-  data: IAdministrativos;
+  data: IAdministrativo;
   msg: string;
 };
 

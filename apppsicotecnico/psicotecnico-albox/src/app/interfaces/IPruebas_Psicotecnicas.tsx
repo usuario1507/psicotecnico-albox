@@ -1,17 +1,17 @@
 
 
-export interface IPruebas_Psicotecnicas {
+export interface IPrueba_Psicotecnica {
     id_prueba: number;
     nombre_prueba: string;
     descripcion: string;
     costo: number;
     key?: number;
-    prueba: IPruebas_Psicotecnicas;
+    // prueba: IPruebas_Psicotecnica;
 };
 
 export interface IRespPruebas_Psicotecnicas {
   status: number;
-  data: IPruebas_Psicotecnicas;
+  data: IPrueba_Psicotecnica;
   msg: string;
 };
 

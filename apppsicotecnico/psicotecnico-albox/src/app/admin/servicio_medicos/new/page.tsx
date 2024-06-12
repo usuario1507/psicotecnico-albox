@@ -2,7 +2,7 @@
 import {Input, Button} from "@nextui-org/react";
 import { useForm } from "react-hook-form";
 import Link from "next/link";
-import { IServicios_Medicos } from "@/app/interfaces/IServicios_Medicos";
+import { IServicio_Medico } from "@/app/interfaces/IServicios_Medicos";
 import apiServicios_Medicos from "@/app/model/servicios_medicos/apiServicios_Medicos";
 
 
@@ -14,8 +14,8 @@ type ServiciosData = {
 };
 
 const newServicioPage = () => {
-  const { register, handleSubmit }= useForm<IServicios_Medicos>();
-  const onnewServiciosData = ( data: IServicios_Medicos ) => {
+  const { register, handleSubmit }= useForm<IServicio_Medico>();
+  const onnewServiciosData = ( data: IServicio_Medico ) => {
 
     const {id_servicio, costo, ...resto } = data;
     data.id_servicio = +data.id_servicio;

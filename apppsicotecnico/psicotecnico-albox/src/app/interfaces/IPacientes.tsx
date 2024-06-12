@@ -1,6 +1,6 @@
 
 
-export interface IPacientes {
+export interface IPaciente {
     id_paciente: number;
     nombre: string;
     apellido: string;
@@ -14,7 +14,7 @@ export interface IPacientes {
 
 export interface IRespPacientes {
   status: number;
-  data: IPacientes;
+  data: IPaciente;
   msg: string;
 };
 

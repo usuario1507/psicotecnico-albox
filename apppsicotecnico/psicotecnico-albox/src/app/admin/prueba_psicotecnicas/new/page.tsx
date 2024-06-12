@@ -1,5 +1,5 @@
 'use client'
-import { IPruebas_Psicotecnicas } from "@/app/interfaces/IPruebas_Psicotecnicas";
+import { IPrueba_Psicotecnica } from "@/app/interfaces/IPruebas_Psicotecnicas";
 import apiPruebas_Psicotecnicas from "@/app/model/pruebas_psicotecnicas/apiPruebas__Psicotecnicas";
 import {Input, Button} from "@nextui-org/react"
 import Link from "next/link";
@@ -13,8 +13,8 @@ type PruebasData = {
 };
 
 const newPruebaPage = () => {
-  const { register, handleSubmit }= useForm<IPruebas_Psicotecnicas>();
-  const onnewPruebasData = ( data: IPruebas_Psicotecnicas ) => {
+  const { register, handleSubmit }= useForm<IPrueba_Psicotecnica>();
+  const onnewPruebasData = ( data: IPrueba_Psicotecnica ) => {
     
     const {id_prueba, costo, ...resto } = data;
     data.id_prueba = +data.id_prueba;

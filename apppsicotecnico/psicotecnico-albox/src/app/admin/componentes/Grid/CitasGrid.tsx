@@ -1,11 +1,11 @@
-import { ICitas } from "@/app/interfaces/ICitas";
+import { ICita } from "@/app/interfaces/ICitas";
 import { FC } from "react";
 import React from "react";
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
 
 interface Props {
-    citas: ICitas[],
+    citas: ICita[],
     columnas: String[];
 }
 

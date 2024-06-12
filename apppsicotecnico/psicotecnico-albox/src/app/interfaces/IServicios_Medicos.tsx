@@ -1,17 +1,17 @@
 
 
-export interface IServicios_Medicos {
+export interface IServicio_Medico {
     id_servicio: number;
     nombre_servicio: string;
     descripcion: string;
     costo: number;
     key?: number;
-    servicio: IServicios_Medicos;
+    // servicio: IServicios_Medicos;
 };
 
 export interface IRespServicios_Medicos {
   status: number;
-  data: IServicios_Medicos;
+  data: IServicio_Medico;
   msg: string;
 };
 

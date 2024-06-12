@@ -1,14 +1,14 @@
 
-export interface ICitas {
+export interface ICita {
     id_cita: number;
     fecha_hora: string; 
     key?: number;
-    cita: ICitas;
+    // cita: ICita;
 };
 
 export interface IRespCitas {
   status: number;
-  data: ICitas;
+  data: ICita;
   msg: string;
 };
 
