@@ -11,11 +11,11 @@ const apiMedicos = {
         return medicos
     },
 
-    detalle: async (especialidad: IMedico["especialidad"]): Promise<IMedico> => {
-        const ruta = `${apiBD}/medico/${especialidad}`;
-        const medicos = await fetch(`${ruta}`, { cache: 'no-store'})
+    detalle: async (id_medico: IMedico["id_medico"]): Promise<IMedico> => {
+        const ruta = `${apiBD}/medico/${id_medico}`;
+        const medico = await fetch(`${ruta}`, { cache: 'no-store'})
             .then((res) => res.json())
-        return medicos
+        return medico
     },
 
     new: async (Medico:IMedico): Promise<IRespMedicos> => {

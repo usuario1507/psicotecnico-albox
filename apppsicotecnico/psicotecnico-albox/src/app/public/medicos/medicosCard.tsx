@@ -4,7 +4,6 @@ import { IMedico } from "@/app/interfaces/IMedicos";
 import { FC } from "react";
 import Image from 'next/image'
 
-
 interface Props {
     medico: IMedico;
 
