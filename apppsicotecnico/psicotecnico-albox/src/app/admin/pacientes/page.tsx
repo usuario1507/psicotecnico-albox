@@ -7,7 +7,7 @@ const PacientesPage = async () => {
 
     const pacientes = await apiPacientes.listar();
     console.log("----", pacientes)
-    const columns = ["codigo", "nombre", "apellido", "correo", "genero", "telefono", "direccion", "f_nacimiento"]
+    const columns = ["codigo", "nombre", "apellido", "genero", "telefono", "direccion", "f_nacimiento"]
     console.log(columns)
     return (
         <>

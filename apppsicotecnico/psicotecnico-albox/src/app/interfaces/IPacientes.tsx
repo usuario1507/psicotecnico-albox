@@ -4,7 +4,6 @@ export interface IPaciente {
     id_paciente: number;
     nombre: string;
     apellido: string;
-    correo_electronico: string;
     genero: string;
     telefono: number;
     direccion: string;
@@ -34,10 +33,6 @@ const ColumPacientes:IColumn[] = [
     {
         key: "apellido",
         label: "apellido",
-    },
-    {
-        key: "correo_electronico",
-        label: "correo_electronico",
     },
     {
         key: "genero",

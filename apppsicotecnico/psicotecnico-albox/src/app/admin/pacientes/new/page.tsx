@@ -1,5 +1,5 @@
 'use client'
-import { IPacientes } from "@/app/interfaces/IPacientes";
+import { IPaciente } from "@/app/interfaces/IPacientes";
 import apiPacientes from "@/app/model/pacientes/apiPacientes";
 import {Button, Input } from "@nextui-org/react";
 import Link from "next/link";
@@ -9,7 +9,6 @@ type Pacientesdata = {
   id_paciente: number;
   nombre: string;
   apellido: string;
-  correo_electronico: string;
   genero: string;
   telefono: number;
   direccion: string;
@@ -18,8 +17,8 @@ type Pacientesdata = {
 };
 
 const newPacientePage = () => {
-  const { register, handleSubmit }= useForm<IPacientes>();
-  const onnewMedicosData = async ( data: IPacientes ) => {
+  const { register, handleSubmit }= useForm<IPaciente>();
+  const onnewMedicosData = async ( data: IPaciente ) => {
    
     const {id_paciente, telefono, ...resto } = data;
     data.id_paciente = +data.id_paciente;
@@ -63,12 +62,6 @@ const newPacientePage = () => {
         className="appearance-none block w-full  text-gray-700 border  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
         id="apellido" type="text" placeholder="apellido" />
     </div>
-    <div className="container mx-auto mt-6 flex w-full flex-wrap md:flex-npwrap gap-4">
-    <label className="block uppercase tracking-wide text-gray-700 text-lg font-bold mb-2" htmlFor="grid-correo_electronico">correo_electronico</label>
-        <Input {...register('correo_electronico')} 
-        className="appearance-none block w-full  text-gray-700 border  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
-        id="correo_electronico" type="text" placeholder="correo_electronico" />   
-    </div>
     <div className="container basis-1/4 mx-auto mt-6 flex w-full flex-wrap md:flex-npwrap gap-4">
     <label className="block uppercase tracking-wide text-gray-700 text-lg font-bold mb-2" htmlFor="grid-genero">genero</label>
     <select 
@@ -97,10 +90,10 @@ const newPacientePage = () => {
     <label className="block uppercase tracking-wide text-gray-700 text-lg font-bold mb-2" htmlFor="grid-f_nacimiento">f_nacimiento</label>
         <Input {...register('f_nacimiento')} 
         className="appearance-none block w-full  text-gray-700 border  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
-        id="correo_electronico" type="text" placeholder="correo_electronico" />   
+        id="f_nacimiento" type="text" placeholder="correo_electronico" />   
     </div>
     <div>
-    <Link  color="foreground" passHref  href="/admin/medicos" >
+    <Link  color="foreground" passHref  href="/admin/pacientes" >
      <Button type="submit" color="primary" className="container mx-auto mt-7">Enviar</Button>
     </Link>
     </div>

@@ -43,7 +43,6 @@ export const PacientesGrid:FC<Props> = ({pacientes, columnas}) => {
                            <td>{ paciente.id_paciente }</td>
                            <td>{ paciente.nombre }</td>
                            <td>{ paciente.apellido }</td>
-                           <td>{ paciente.correo_electronico }</td>
                            <td>{ paciente.genero }</td>
                            <td>{ paciente.telefono }</td>
                            <td>{ paciente.direccion }</td>

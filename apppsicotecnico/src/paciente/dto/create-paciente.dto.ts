@@ -15,10 +15,6 @@ export class CreatePacienteDto {
 
   @IsString()
   @MinLength(5)
-  correo_electronico: string;
-
-  @IsString()
-  @MinLength(5)
   genero: string;
 
   @IsNumber()

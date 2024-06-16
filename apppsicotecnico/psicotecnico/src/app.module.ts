@@ -10,6 +10,8 @@ import { CitaModule } from './cita/cita.module';
 import { PruebaPsicotecnicaModule } from './prueba_psicotecnica/prueba_psicotecnica.module';
 import { ServicioMedicoModule } from './servicio_medico/servicio_medico.module';
 import { SeedModule } from './seed/seed.module';
+import { AuthModule } from './auth/auth.module';
+import { UsuariosModule } from './usuarios/usuarios.module';
 
 @Module({
   imports: [
@@ -31,6 +33,8 @@ import { SeedModule } from './seed/seed.module';
     PruebaPsicotecnicaModule,
     ServicioMedicoModule,
     SeedModule,
+    AuthModule,
+    UsuariosModule,
   ],
   controllers: [AppController],
   providers: [AppService],

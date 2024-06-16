@@ -12,9 +12,6 @@ export class Paciente {
   apellido: string;
 
   @Column('text')
-  correo_electronico: string;
-
-  @Column('text')
   genero: string;
 
   @Column('numeric')
