@@ -14,12 +14,7 @@ export class UsuariosService {
   ) {}
   async create(createUsuarioDto: CreateUsuarioDto) {
     try {
-      const { createdAt, updatedAt, ...resto } = createUsuarioDto;
-      const c_At: Date = new Date(createdAt);
-      const u_At: Date = new Date(updatedAt)
-      const usuarionew: Usuario = { ...resto, createdAt: c_At, updatedAt: u_At };
-      
-      const usuario = this.usuariosRepository.create(usuarionew);
+      const usuario = this.usuariosRepository.create(createUsuarioDto);
       console.log(usuario);
       await this.usuariosRepository.save(usuario);
       return {
@@ -28,9 +23,7 @@ export class UsuariosService {
         msg: 'Usuario insertado correctamente',
       };
     } catch (error) {
-      return new InternalServerErrorException(
-        'No se puede insertar este usuario',
-      );
+      return new InternalServerErrorException('No se puede insertar un usuario');
     }
   }
 

@@ -2,6 +2,7 @@ import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { CreatePacienteDto } from './dto/create-paciente.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Paciente } from './entities/paciente.entity';
+import { Usuario } from 'src/usuarios/entities/usuario.entity';
 import { Repository } from 'typeorm';
 import { UpdatePacienteDto } from './dto/update-paciente.dto';
 
@@ -10,6 +11,8 @@ export class PacienteService {
   constructor(
     @InjectRepository(Paciente)
     private readonly pacientesRepository: Repository<Paciente>,
+    @InjectRepository(Usuario)
+    private readonly usuariosRepository: Repository<Usuario>,
   ) {}
   async create(createPacienteDto: CreatePacienteDto) {
     try {

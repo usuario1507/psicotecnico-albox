@@ -1,5 +1,5 @@
 import { Entity, PrimaryColumn, Column } from 'typeorm';
-// import { Cita } from 'src/cita/entities/cita.entity';
+// import { Usuario } from 'src/usuarios/entities/usuario.entity';
 @Entity('Pacientes')
 export class Paciente {
   @PrimaryColumn()
@@ -26,6 +26,6 @@ export class Paciente {
   @Column({ nullable: true })
   foto: string;
 
-  // @OneToMany(() => Cita, (cita) => cita.paciente, { eager: true })
-  // citas?: Cita[];
+  // @OneToOne(() => Usuario, (usuario) => usuario.paciente)
+  // usuario: Usuario;
 }

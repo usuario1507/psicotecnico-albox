@@ -29,4 +29,8 @@ export class CreatePacienteDto {
 
   @IsString()
   foto: string;
+
+  @IsNumber()
+  @IsPositive()
+  usuario?: number;
 }
