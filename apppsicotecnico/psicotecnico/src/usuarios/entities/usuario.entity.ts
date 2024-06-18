@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
-import { Column, Entity, JoinColumn, OneToOne, PrimaryColumn } from "typeorm";
-import { Paciente } from "src/paciente/entities/paciente.entity";
-import { Medico } from "src/medico/entities/medico.entity";
+import { Column, Entity, PrimaryColumn } from "typeorm";
+// import { Paciente } from "src/paciente/entities/paciente.entity";
+// import { Medico } from "src/medico/entities/medico.entity";
 
 @Entity({
     name:'usuarios'
@@ -38,11 +38,11 @@ export class Usuario {
     @Column({ type: 'timestamp' })
     updatedAt: Date;
     
-    @OneToOne(() => Paciente)
-    @JoinColumn({ name: 'id_paciente'})
-    paciente: Paciente;
+    // @OneToOne(() => Paciente)
+    // @JoinColumn({ name: 'id_paciente'})
+    // paciente: Paciente;
 
-    @OneToOne(() => Medico)
-    @JoinColumn({ name: 'id_medico'})
-    medico: Medico;
+    // @OneToOne(() => Medico)
+    // @JoinColumn({ name: 'id_medico'})
+    // medico: Medico;
 }
