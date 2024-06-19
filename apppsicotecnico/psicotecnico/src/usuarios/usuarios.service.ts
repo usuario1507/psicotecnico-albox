@@ -14,7 +14,11 @@ export class UsuariosService {
   ) {}
   async create(createUsuarioDto: CreateUsuarioDto) {
     try {
-      const usuario = this.usuariosRepository.create(createUsuarioDto);
+      const { createdAt, updatedAt, ...resto } = createUsuarioDto;
+      const u_At: Date = new Date(updatedAt);
+      const c_At: Date = new Date(createdAt);
+      const usuarionew: Usuario = { ...resto, updatedAt: u_At, createdAt: c_At}
+      const usuario = this.usuariosRepository.create(usuarionew);
       console.log(usuario);
       await this.usuariosRepository.save(usuario);
       return {

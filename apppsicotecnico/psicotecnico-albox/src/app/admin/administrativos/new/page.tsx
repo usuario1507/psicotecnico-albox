@@ -17,13 +17,14 @@ type AdministrativosData = {
 
 
 const newAdministrativoPage = () => {
+  //console.log("---new-");
    const { register, handleSubmit }= useForm<IAdministrativo>();
    const onnewAdministrativosData = async ( data: IAdministrativo ) => {
-
+    //console.log("---new4-");
     const {id_administrativo, telefono, ...resto } = data;
     data.id_administrativo = +data.id_administrativo;
     data.telefono = +data.telefono;
-    console.log(data);
+    //console.log("----",data);
     const result = apiAdministrativos.new(data);
     console.log(result)
    }

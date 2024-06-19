@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { CreateCitaDto } from './dto/create-cita.dto';
@@ -10,16 +11,17 @@ import { UpdateCitaDto } from './dto/update-cita.dto';
 
 @Injectable()
 export class CitaService {
-  // constructor(
-  @InjectRepository(Cita)
-  private readonly citasRepository: Repository<Cita>;
-  // private readonly pacienteService: PacienteService,
-  // private readonly medicoService: MedicoService,
-  // private readonly administrativoService: AdministrativoService,
-  // ) {}
+  constructor(
+   @InjectRepository(Cita)
+   private readonly citasRepository: Repository<Cita>,
+ ) {}
   async create(createCitaDto: CreateCitaDto) {
     try {
-      const cita = this.citasRepository.create(createCitaDto);
+      const { fecha_hora, ...resto } = createCitaDto;
+      const f_hora: Date = new Date(fecha_hora); //transformo de string  a Date
+      const citanew: Cita = { ...resto, fecha_hora: f_hora };
+
+      const cita = this.citasRepository.create(citanew);
       console.log(cita);
       await this.citasRepository.save(cita);
       return {

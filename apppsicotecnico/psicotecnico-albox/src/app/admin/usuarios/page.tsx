@@ -1,5 +1,5 @@
 import apiUsuarios from "@/app/model/usuarios/apiUsuarios";
-import { UsuariosGrid } from "../../componentes/Grid/UsuariosGrid";
+import { UsuariosGrid } from "../componentes/Grid/UsuariosGrid";
 
 const UsuariosPage = async () => {
     

@@ -16,10 +16,12 @@ const newCitaPage = () => {
 
         const {id_cita, fecha_hora } = data;
         data.id_cita = +data.id_cita;
+
         console.log(data);
         const result = apiCitas.new(data);
         console.log(result)
-    }
+
+        }
 
     return (
         <div>

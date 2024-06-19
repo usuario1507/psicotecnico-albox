@@ -5,8 +5,8 @@ import { CitasGrid } from "../componentes/Grid/CitasGrid";
 const CitasPage = async () => {
 
     const citas = await apiCitas.listar();
-    console.log("---", citas)
-    const columns = ["codigo","fecha_hora"]
+    console.log("----", citas)
+    const columns = ["codigo", "fecha_hora"]
     console.log(columns)
     return (
         <>

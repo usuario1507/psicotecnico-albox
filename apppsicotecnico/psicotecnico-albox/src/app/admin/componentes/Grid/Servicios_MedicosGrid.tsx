@@ -1,11 +1,11 @@
-import { IServicios_Medicos } from "@/app/interfaces/IServicios_Medicos";
+import { IServicio_Medico } from "@/app/interfaces/IServicios_Medicos";
 import { Button } from "@nextui-org/button";
 import Link from "next/link";
 import { FC } from "react";
 
 
 interface Props {
-    servicios_medicos: IServicios_Medicos[];
+    servicios_medicos: IServicio_Medico[];
     columnas: String;
 };
 

@@ -1,4 +1,4 @@
-import { ICita } from "@/app/interfaces/ICitas";
+import { ICita, IColumn } from "@/app/interfaces/ICitas";
 import { FC } from "react";
 import React from "react";
 import { Button } from "@nextui-org/react";
@@ -10,6 +10,7 @@ interface Props {
 }
 
 export const CitasGrid:FC<Props> = ( {citas, columnas} ) => {
+    console.log("citas = ",citas)
     return (
         <>
 
@@ -48,7 +49,6 @@ export const CitasGrid:FC<Props> = ( {citas, columnas} ) => {
                            </td>
                           </tr>  
                         )
-
                         )
                     }
                 </tbody>

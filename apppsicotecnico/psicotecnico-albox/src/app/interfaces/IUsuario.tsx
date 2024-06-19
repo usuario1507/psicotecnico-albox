@@ -24,7 +24,7 @@ export interface IColumn {
 };
 const ColumUsuarios:IColumn[] = [
     {
-        key: "id_iusuario",
+        key: "id_usuario",
         label: "id_usuario",
     },
     {
