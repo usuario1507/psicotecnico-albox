@@ -1,5 +1,5 @@
 'use client'
-import { IMedicos } from "@/app/interfaces/IMedicos";
+import { IMedico } from "@/app/interfaces/IMedicos";
 import apiMedicos from "@/app/model/medicos/apiMedicos";
 import {Button, Input } from "@nextui-org/react";
 import Link from "next/link";
@@ -19,8 +19,8 @@ type Medicosdata = {
 
 
 const newMedicoPage = () => {
-  const { register, handleSubmit }= useForm<IMedicos>();
-  const onnewMedicosData = async ( data: IMedicos ) => {
+  const { register, handleSubmit }= useForm<IMedico>();
+  const onnewMedicosData = async ( data: IMedico ) => {
    
     const {id_medico, telefono, ...resto } = data;
     data.id_medico = +data.id_medico;

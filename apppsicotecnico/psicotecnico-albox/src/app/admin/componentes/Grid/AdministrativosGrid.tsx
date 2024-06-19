@@ -1,4 +1,4 @@
-import { IAdministrativos } from "@/app/interfaces/IAdministrativos";
+import { IAdministrativo } from "@/app/interfaces/IAdministrativos";
 import { Button } from "@nextui-org/button";
 import { FC } from "react";
 import React from "react";
@@ -8,7 +8,7 @@ import Link from "next/link";
 
 
 interface Props {
-    administrativos: IAdministrativos[],
+    administrativos: IAdministrativo[],
     columnas: String[]
 };
 

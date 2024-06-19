@@ -1,5 +1,5 @@
 'use client'
-import { IAdministrativos } from "@/app/interfaces/IAdministrativos";
+import { IAdministrativo } from "@/app/interfaces/IAdministrativos";
 import apiAdministrativos from "@/app/model/administrativos/apiAdministrativos";
 import {Button, Input} from "@nextui-org/react";
 import Link from "next/link";
@@ -17,8 +17,8 @@ type AdministrativosData = {
 
 
 const newAdministrativoPage = () => {
-   const { register, handleSubmit }= useForm<IAdministrativos>();
-   const onnewAdministrativosData = async ( data: IAdministrativos ) => {
+   const { register, handleSubmit }= useForm<IAdministrativo>();
+   const onnewAdministrativosData = async ( data: IAdministrativo ) => {
 
     const {id_administrativo, telefono, ...resto } = data;
     data.id_administrativo = +data.id_administrativo;

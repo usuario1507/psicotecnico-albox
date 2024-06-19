@@ -2,7 +2,7 @@
 import {Button, Input} from "@nextui-org/react";
 import { useForm } from "react-hook-form";
 import Link from "next/link";
-import { ICitas } from "@/app/interfaces/ICitas";
+import { ICita } from "@/app/interfaces/ICitas";
 import apiCitas from "@/app/model/citas/apiCitas";
 
 type Citasdata = {
@@ -11,8 +11,8 @@ type Citasdata = {
 };
 
 const newCitaPage = () => {
-    const { register, handleSubmit }= useForm<ICitas>();
-    const onnewCitasdata = ( data: ICitas ) => {
+    const { register, handleSubmit }= useForm<ICita>();
+    const onnewCitasdata = ( data: ICita ) => {
 
         const {id_cita, fecha_hora } = data;
         data.id_cita = +data.id_cita;
