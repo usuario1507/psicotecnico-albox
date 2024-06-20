@@ -19,4 +19,4 @@ const apiAdministrativos = {
     }
 }
 
-export default apiAdministrativos
+export default apiAdministrativos;
